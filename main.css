@@ -4,6 +4,9 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+header h1 {
+  text-align: center; }
+
 .image-container {
   max-width: 1200px;
   margin-left: auto;
@@ -12,16 +15,51 @@ html {
     clear: both;
     content: "";
     display: block; }
-  .image-container .image-div {
+  .image-container .image-div0 {
     float: left;
     display: block;
     margin-right: 3.16844%;
     width: 31.22104%; }
-    .image-container .image-div:last-child {
+    .image-container .image-div0:last-child {
       margin-right: 0; }
-    .image-container .image-div:nth-of-type(3n) {
+  .image-container .image-div1 {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 31.22104%; }
+    .image-container .image-div1:last-child {
       margin-right: 0; }
-    .image-container .image-div img {
-      max-width: 100%; }
+  .image-container .image-div2 {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 31.22104%; }
+    .image-container .image-div2:last-child {
+      margin-right: 0; }
+  .image-container .image-div3 {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 31.22104%; }
+    .image-container .image-div3:last-child {
+      margin-right: 0; }
+  .image-container .image-div4 {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 31.22104%; }
+    .image-container .image-div4:last-child {
+      margin-right: 0; }
+  .image-container .image-div5 {
+    float: left;
+    display: block;
+    margin-right: 3.16844%;
+    width: 31.22104%; }
+    .image-container .image-div5:last-child {
+      margin-right: 0; }
+  .image-container .image-div2 {
+    margin-right: 0; }
+  .image-container img {
+    max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

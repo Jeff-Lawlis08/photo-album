@@ -1,0 +1,35 @@
+header {
+  h1 {
+  text-align: center;
+}
+}
+.image-container {
+@include outer-container;
+
+.image-div0 {
+@include span-columns(3 of 9);
+}
+.image-div1 {
+@include span-columns(3 of 9);
+}
+.image-div2 {
+@include span-columns(3 of 9);
+}
+.image-div3 {
+@include span-columns(3 of 9);
+}
+.image-div4 {
+@include span-columns(3 of 9);
+}
+.image-div5 {
+@include span-columns(3 of 9);
+}
+ .image-div2 {
+  @include omega;
+}
+
+
+img {
+  max-width: 100%;
+}
+}

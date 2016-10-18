@@ -1,35 +1,17 @@
-header {
-  h1 {
-  text-align: center;
-}
+.navButtons {
+  list-style: none;
 }
 .image-container {
-@include outer-container;
+  @include outer-container;
+}
+.photo-div1 {
+  @include span-columns(3 of 9);
 
-.image-div0 {
-@include span-columns(3 of 9);
+  img{
+    max-width: 100%;
+  }
 }
-.image-div1 {
-@include span-columns(3 of 9);
 }
-.image-div2 {
-@include span-columns(3 of 9);
-}
-.image-div3 {
-@include span-columns(3 of 9);
-}
-.image-div4 {
-@include span-columns(3 of 9);
-}
-.image-div5 {
-@include span-columns(3 of 9);
-}
- .image-div2 {
-  @include omega;
-}
-
-
-img {
-  max-width: 100%;
-}
+body {
+  background: pink;
 }

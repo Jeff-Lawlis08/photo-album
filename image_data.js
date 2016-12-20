@@ -1,62 +1,62 @@
 var albums = [{
   albumName : 'Album1',
-  albumCover: 'images/album-cover.jpeg',
+  albumCover: 'images/album-cover1.jpeg',
     images: [
-      {url: 'images/album-cover.jpeg',
-        imageName: 'album-cover 1',},
+      {url: 'images/album-cover1.jpeg',
+        imageName: 'Photo 1',},
       {url: 'images/album1-photo1.jpeg',
-        imageName: 'album1-photo 1'},
+        imageName: 'Photo 2'},
       {url: 'images/album1-photo2.jpeg',
-        imageName: 'album1-photo 2'}
+        imageName: 'Photo 3'}
     ]},
     {albumName : 'Album2',
     albumCover: 'images/album-cover2.jpeg',
       images: [
         {url: 'images/album-cover2.jpeg',
-          imageName: 'album-cover 2',},
+          imageName: 'Photo 1',},
         {url: 'images/album2-photo1.jpeg',
-          imageName: 'album2-photo 1'},
+          imageName: 'Photo 2'},
         {url: 'images/album2-photo2.jpeg',
-          imageName: 'album2-photo 2'}
+          imageName: 'Photo 3'}
       ]},
       {albumName : 'Album3',
       albumCover: 'images/album-cover3.jpeg',
         images: [
           {url: 'images/album-cover3.jpeg',
-            imageName: 'album-cover 3',},
+            imageName: 'Photo 1',},
           {url: 'images/album3-photo1.jpeg',
-            imageName: 'album3-photo 1'},
+            imageName: 'Photo 2'},
           {url: 'images/album3-photo2.jpeg',
-            imageName: 'album3-photo 2'}
+            imageName: 'Photo 3'}
         ]},
         {albumName : 'Album4',
         albumCover : 'images/album-cover4.jpeg',
           images: [
             {url: 'images/album-cover4.jpeg',
-              imageName: 'album-cover 4',},
+              imageName: 'Photo 1',},
             {url: 'images/album4-photo1.jpeg',
-              imageName: 'album4-photo 1'},
+              imageName: 'Photo 2'},
             {url: 'images/album4-photo2.jpeg',
-              imageName: 'album4-photo 2'}
+              imageName: 'Photo 3'}
           ]},
           {albumName : 'Album5',
           albumCover : 'images/album-cover5.jpeg',
             images: [
               {url: 'images/album-cover5.jpeg',
-                imageName: 'album-cover 5',},
+                imageName: 'Photo 1',},
               {url: 'images/album5-photo1.jpeg',
-                imageName: 'Album5-photo 1'},
+                imageName: 'Photo 2'},
               {url: 'images/album5-photo2.jpeg',
-                imageName: 'album5-photo 2'}
+                imageName: 'Photo 3'}
             ]},
             {albumName : 'Album6',
             albumCover : 'images/album-cover6.jpeg',
               images: [
                 {url: 'images/album-cover6.jpeg',
-                  imageName: 'album-cover 6',},
+                  imageName: 'Photo 1',},
                 {url: 'images/album6-photo1.jpeg',
-                  imageName: 'album6-photo 1'},
+                  imageName: 'Photo 2'},
                 {url: 'images/album6-photo2.jpeg',
-                  imageName: 'album6-photo 2'}
+                  imageName: 'Photo 3'}
               ]},
 ];

@@ -1,17 +1,13 @@
-.navButtons {
-  list-style: none;
-}
 .image-container {
   @include outer-container;
-}
-.photo-div1 {
-  @include span-columns(3 of 9);
 
-  img{
-    max-width: 100%;
+  .album-div {
+    @include span-columns(3 of 9);
+    img {
+      max-width: 100%;
+    }
+    &:nth-of-type(3) {
+      @include omega;
+    }
   }
-}
-}
-body {
-  background: pink;
 }

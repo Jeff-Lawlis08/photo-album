@@ -1,0 +1,8 @@
+.image-container{
+.image-div {
+  @include span-columns(3 of 9);
+  img {
+    max-width: 100%;
+  }
+}
+}

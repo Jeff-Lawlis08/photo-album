@@ -1,0 +1,7 @@
+.photo-div{
+  width: 100%;
+  @include span-columns(6 of 9);
+  img {
+  max-width: 100%;
+}
+}

@@ -15,51 +15,37 @@ header h1 {
     clear: both;
     content: "";
     display: block; }
-  .image-container .image-div0 {
+  .image-container .album-div {
     float: left;
     display: block;
     margin-right: 3.16844%;
     width: 31.22104%; }
-    .image-container .image-div0:last-child {
+    .image-container .album-div:last-child {
       margin-right: 0; }
-  .image-container .image-div1 {
-    float: left;
-    display: block;
-    margin-right: 3.16844%;
-    width: 31.22104%; }
-    .image-container .image-div1:last-child {
+    .image-container .album-div img {
+      max-width: 100%; }
+    .image-container .album-div:nth-of-type(3) {
       margin-right: 0; }
-  .image-container .image-div2 {
-    float: left;
-    display: block;
-    margin-right: 3.16844%;
-    width: 31.22104%; }
-    .image-container .image-div2:last-child {
-      margin-right: 0; }
-  .image-container .image-div3 {
-    float: left;
-    display: block;
-    margin-right: 3.16844%;
-    width: 31.22104%; }
-    .image-container .image-div3:last-child {
-      margin-right: 0; }
-  .image-container .image-div4 {
-    float: left;
-    display: block;
-    margin-right: 3.16844%;
-    width: 31.22104%; }
-    .image-container .image-div4:last-child {
-      margin-right: 0; }
-  .image-container .image-div5 {
-    float: left;
-    display: block;
-    margin-right: 3.16844%;
-    width: 31.22104%; }
-    .image-container .image-div5:last-child {
-      margin-right: 0; }
-  .image-container .image-div2 {
+
+.image-container .image-div {
+  float: left;
+  display: block;
+  margin-right: 3.16844%;
+  width: 31.22104%; }
+  .image-container .image-div:last-child {
     margin-right: 0; }
-  .image-container img {
+  .image-container .image-div img {
+    max-width: 100%; }
+
+.photo-div {
+  width: 100%;
+  float: left;
+  display: block;
+  margin-right: 3.16844%;
+  width: 65.61052%; }
+  .photo-div:last-child {
+    margin-right: 0; }
+  .photo-div img {
     max-width: 100%; }
 
 /*# sourceMappingURL=main.css.map */
